@@ -8,7 +8,7 @@ This is my personal beloved setup for quickly getting into writting an applicati
 - [Vue](https://vuejs.org/) A "batteries included" kind of JavaScript framework.
 - [Vue-router](https://router.vuejs.org/) The official router for vue.
 - [VueUse](https://vueuse.org/) For handy pre-written composables.
-- [Tailwindcss](https://tailwindcss.com/)
+- [Tailwindcss](https://tailwindcss.com/) A utility-first CSS framework.
 - [Merakiui](https://merakiui.com/) For a "headstart" on styling components. This uses tailwind classes and no JavaScript so there is nothing to install, just copy paste beautiful html and css components.
 - [HYPERCOLOR](https://hypercolor.dev/) For gradients
 - [Hero Icons](https://heroicons.com/) for icons.
