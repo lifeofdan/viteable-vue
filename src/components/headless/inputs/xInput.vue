@@ -6,8 +6,7 @@
         <slot name="leftIcon" />
           <input :class="inputClasses" :style="inputStyles" :type="type" />
         <slot name="rightIcon" />
-      </div>
-      
+      </div> 
     </label>
   </div>
 </template>

@@ -17,13 +17,25 @@
         <CheckIcon class="h-5 w-5 mr-2" />        
       </template>
     </xInput><br />
+    <xSelect @select="onSelect" label="select" />
+    <xCard>
+      <template #card-header>Header</template>
+      Body
+      <template #card-footer>Footer</template>
+    </xCard><br />
   </div>
 </template>
 
 <script setup lang="ts">
-import xButton from '../components/headless/buttons/xbutton.vue';
-import xInput from '../components/headless/inputs/xinput.vue';
+import xButton from '../components/headless/buttons/xButton.vue';
+import xInput from '../components/headless/inputs/xInput.vue';
+import xSelect, { SelectOption } from '../components/headless/select/xSelect.vue'
+import xCard from '../components/headless/card/xCard.vue'
 import { CheckIcon } from "@heroicons/vue/solid"
+
+const onSelect = (e: SelectOption) => {
+  console.log(e.value);
+}
 </script>
 
 <style scoped>
