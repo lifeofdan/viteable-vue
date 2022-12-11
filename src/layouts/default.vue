@@ -33,7 +33,7 @@
 
 <script setup lang="ts">
 import { useDark, useToggle } from "@vueuse/core";
-import { SunIcon, MoonIcon } from "@heroicons/vue/solid";
+import { SunIcon, MoonIcon } from "@heroicons/vue/20/solid";
 
 const isDark = useDark();
 const toggleDark = useToggle(isDark);
